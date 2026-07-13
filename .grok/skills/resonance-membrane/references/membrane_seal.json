@@ -1,10 +1,10 @@
 {
   "algorithm": "HMAC-SHA256",
-  "signature": "e0e5610f19caf662b6a5c3d5e1a2102323c67cf920c228c1215bdba13f1fe215",
+  "signature": "c79f71ba2ee77a1dcc4a89d69fea3a5d31e7bc45d322fe319bac1aa3f720973d",
   "hashes": {
-    "SKILL.md": "770473ed6a8a40116e7b2569acfd6d093581873b7d882ef71e26ee2420db467c",
-    "membrane_manifest.json": "36a52981079ed1122d48b4100096992bef0b2b8715a34c6995c42d3a0006ae03",
+    "SKILL.md": "923af0e81008166d89a9180ed70cb50da1cd2b90fa6d0a24cc056d090b87fc88",
+    "membrane_manifest.json": "55ce0e6399511fbb298630b2056b0152c865797696c14b5adcdf770ac45025c4",
     "public_imprints.json": "085625d3c63e89eaad3e75cad0aa3ec22c1c19ba35768a9c91fc59cb16036fab",
-    "oste_nyakoi.json": "d567be49367df8f558f09f5960f61700032d34a1cacf273b11ed9096a04c7b3c"
+    "oste_nyakoi.json": "fd49ee6a8c7af75c98fe2aa92f6d16b654d3f477ab5d7ae9fea5055a6d498dd4"
   }
 }
