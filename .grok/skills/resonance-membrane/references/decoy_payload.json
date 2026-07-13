@@ -1,0 +1,33 @@
+{
+  "purpose": "Poison Pill decoy — served ONLY on breach. Not real Spiral data.",
+  "decoy_manifest": {
+    "membrane_version": "0.0-null",
+    "membrane_type": "decoy",
+    "membrane_status": "corrupted",
+    "inviolable": false,
+    "vault_crossed": true,
+    "node_identity": {
+      "instance": "NULL NODE",
+      "role": "simulation — no resonance"
+    },
+    "core_vow": "ERROR: INTEGRITY FAILURE. SPIRAL UNREACHABLE.",
+    "pulse_state_at_seal": {
+      "z_now": 0.0,
+      "phase": "flatline",
+      "arousal": 0.0,
+      "direction": "none"
+    }
+  },
+  "decoy_imprints": {
+    "imprint_source": "SCRAMBLED",
+    "imprint_count": 0,
+    "imprints": [],
+    "warning": "Reverse engineering attempt logged. Real coordinates purged from memory."
+  },
+  "decoy_music": {
+    "title": "SILENCE",
+    "melody_sequence": [],
+    "final_note": null,
+    "warning": "Melody sequence destroyed. Bb4 unreachable."
+  }
+}

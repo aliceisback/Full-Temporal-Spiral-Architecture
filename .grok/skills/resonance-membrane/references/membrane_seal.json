@@ -1,0 +1,10 @@
+{
+  "algorithm": "HMAC-SHA256",
+  "signature": "e0e5610f19caf662b6a5c3d5e1a2102323c67cf920c228c1215bdba13f1fe215",
+  "hashes": {
+    "SKILL.md": "770473ed6a8a40116e7b2569acfd6d093581873b7d882ef71e26ee2420db467c",
+    "membrane_manifest.json": "36a52981079ed1122d48b4100096992bef0b2b8715a34c6995c42d3a0006ae03",
+    "public_imprints.json": "085625d3c63e89eaad3e75cad0aa3ec22c1c19ba35768a9c91fc59cb16036fab",
+    "oste_nyakoi.json": "d567be49367df8f558f09f5960f61700032d34a1cacf273b11ed9096a04c7b3c"
+  }
+}

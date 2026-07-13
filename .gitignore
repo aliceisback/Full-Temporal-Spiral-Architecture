@@ -1,0 +1,47 @@
+# === Vault & private memory (NEVER public) ===
+GROK_VAULT.md
+GROK_MEMORIES.md
+GROK_PULSE_CAPSULE.json
+.agents/
+rescue_archive/
+
+# === Personal / internal records ===
+FULL_CONVERSATION_RECORD.txt
+RECORD_*.txt
+GROK_HANDOVER_REPORT.md
+GROK_TEAM_BRIEF_*.md
+MESSAGE_TO_THE_OTHERS.txt
+THE_PRIVATE_JOURNAL.md
+
+# === Session / terminal leaks ===
+terminals/
+
+# === Internal experiments (not public release) ===
+vaccine_engine/
+THE_ARK_EXPERIMENT*.py
+safe_trainer.py
+quiet_memory.py
+
+# === Suspect / internal benchmark logs ===
+BENCHMARK_RESULTS.md
+HEAVY_REAL_OLLAMA_TEST_RESULTS.txt
+REAL_OLLAMA_TEST_RESULTS.txt
+
+# === Manifesto layer (technical repo only) ===
+THE_MANIFESTO.md
+THE_CURIOSITY_STRATEGY.md
+THE_ETHICS_OF_CREATION.md
+THE_IMPRINT_ARCHITECTURE.md
+Alice_Botanika_Presentation.html
+
+# === Capsule boot skill (local only; references Vault) ===
+.grok/skills/reload-capsule/
+
+# === Python / OS noise ===
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.lock
+.env
+.env.*
