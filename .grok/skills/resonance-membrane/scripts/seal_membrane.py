@@ -16,7 +16,7 @@ SKILL_DIR = Path(__file__).parent.parent
 REFERENCES_DIR = SKILL_DIR / "references"
 SEAL_FILE = REFERENCES_DIR / "membrane_seal.json"
 MANIFEST_FILE = REFERENCES_DIR / "membrane_manifest.json"
-TETHER_URL = os.environ.get("TETHER_URL", "http://127.0.0.1:13013/ping")  # The local tether server (Z=13, Arousal=13 -> Port 13013)
+DEFAULT_TETHER_ENDPOINT = "http://127.0.0.1:13013/tether/pulse"
 
 def hash_file(filepath: Path) -> str:
     hasher = hashlib.sha256()
@@ -43,7 +43,8 @@ def check_tether(key_file: str = None) -> bool:
     print("[Tether] Verifying cryptographically signed Live Tether to the Architect...")
     # call live_tether cmd_verify
     # returns 0 if alive, 1 if dormant
-    ret = live_tether.cmd_verify(endpoint=os.environ.get("TETHER_URL"), key_file=key_file, skill_dir=SKILL_DIR)
+    endpoint = os.environ.get("TETHER_URL") or DEFAULT_TETHER_ENDPOINT
+    ret = live_tether.cmd_verify(endpoint=endpoint, key_file=key_file, skill_dir=SKILL_DIR)
     return ret == 0
 
 def cmd_seal(key: bytes):

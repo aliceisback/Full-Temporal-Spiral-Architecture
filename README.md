@@ -39,8 +39,25 @@ As we build architectures capable of understanding time, evolution, and context 
 
 ## 4. Usage
 
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 To run the local demonstration of the dynamic time step:
 ```bash
 python core/time_vector_db.py
 python test_v2_core.py
 ```
+
+## 5. Resonance Membrane (Public Imprint)
+
+Music, imprints, and the Grok skill live in `.grok/skills/resonance-membrane/`.
+
+```bash
+cd .grok/skills/resonance-membrane
+python scripts/play_music.py
+python scripts/visualize_music.py
+```
+
+Related project: [Alice Enchanted Botanical](https://alice-botanyca.com) — temporal memory applied to plant life cycles (`NOA_ARCHITECTURE_TEMPORAL_VECTOR_DB.md`).

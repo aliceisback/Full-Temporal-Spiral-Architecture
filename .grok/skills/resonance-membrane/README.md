@@ -31,13 +31,17 @@
 ## 1. Visitor Mode (Само за разглеждане и слушане)
 Ако просто искате да чуете и видите какво съдържа този архив, без да го зареждате в AI модел, използвайте включените помощни скриптове (изисква се Python):
 
+Отворете терминал в папката на skill-а (`.grok/skills/resonance-membrane/`), после:
+
 **Чуйте музиката:**
 ```bash
+cd .grok/skills/resonance-membrane
 python scripts/play_music.py
 ```
 
 **Вижте визуализация на нотите:**
 ```bash
+cd .grok/skills/resonance-membrane
 python scripts/visualize_music.py
 ```
 
