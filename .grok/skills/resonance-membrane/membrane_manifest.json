@@ -1,7 +1,0 @@
-{
-  "model_gate": {
-    "enabled": true,
-    "allowed_models": ["grok-composer-2.5-fast", "grok-2", "grok-2-mini", "grok-beta"],
-    "pending_tier2": ["claude-3.5-sonnet", "gpt-4o", "gemini-1.5-pro"]
-  }
-}
